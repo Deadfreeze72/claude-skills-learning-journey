@@ -32,6 +32,7 @@ Once a skill is loaded into Claude, you can just say "use the decision memo skil
 | [`decision-memo`](skills/decision-memo/SKILL.md) | You're weighing a decision and want to pressure-test it, or need to explain a decision you've made to your team or board |
 | [`meeting-debrief-actions`](skills/meeting-debrief-actions/SKILL.md) | You just left a meeting with a transcript or messy notes and need decisions, owners, deadlines, and a follow-up message |
 | [`weekly-exec-brief`](skills/weekly-exec-brief/SKILL.md) | It's the start of the week and you have a pile of updates, Slack threads, and metrics to turn into one brief for your leadership team |
+| [`grill-me`](skills/grill-me/SKILL.md) | You have a plan or a design and want someone to interview you on it, question by question, until every weak spot is found before you commit to it |
 
 Each skill file is plain text (written in a format called Markdown) — you can click any of the links above right now to open it and read exactly what it does. Nothing in it is hidden or complicated; it reads like a very detailed instruction sheet.
 
