@@ -6,7 +6,7 @@ If this is the first time you've opened a GitHub repository, welcome — this pa
 
 ## What is this place?
 
-This is a **GitHub repository** (or "repo" for short) — basically a folder of files, stored online, that can be shared, downloaded, and updated over time. Right now it contains four text files. Each one teaches Claude how to do a specific writing task the way you'd want it done, instead of generically.
+This is a **GitHub repository** (or "repo" for short) — basically a folder of files, stored online, that can be shared, downloaded, and updated over time. Right now it contains five text files. Each one teaches Claude how to do a specific task the way you'd want it done, instead of generically.
 
 You don't need to know anything about coding to use what's in here.
 
@@ -33,8 +33,11 @@ Once a skill is loaded into Claude, you can just say "use the decision memo skil
 | [`meeting-debrief-actions`](skills/meeting-debrief-actions/SKILL.md) | You just left a meeting with a transcript or messy notes and need decisions, owners, deadlines, and a follow-up message |
 | [`weekly-exec-brief`](skills/weekly-exec-brief/SKILL.md) | It's the start of the week and you have a pile of updates, Slack threads, and metrics to turn into one brief for your leadership team |
 | [`grill-me`](skills/grill-me/SKILL.md) | You have a plan or a design and want someone to interview you on it, question by question, until every weak spot is found before you commit to it |
+| [`weekly-triage`](skills/weekly-triage/SKILL.md)* | It's Monday and you want a one-page brief of what's buried in your email — missed opportunities, unanswered important messages, and people you're still waiting to hear back from |
 
 Each skill file is plain text (written in a format called Markdown) — you can click any of the links above right now to open it and read exactly what it does. Nothing in it is hidden or complicated; it reads like a very detailed instruction sheet.
+
+\* `weekly-triage` is different from the others: it needs to actually read your Gmail, so it only works where Claude has a Gmail connection set up (for example, in a Claude.ai account with Gmail connected under **Settings → Connectors**). It never sends emails or creates drafts on its own — it only ever writes you a brief with suggested replies for you to copy, edit, and send yourself.
 
 ## How to actually use these skills
 
