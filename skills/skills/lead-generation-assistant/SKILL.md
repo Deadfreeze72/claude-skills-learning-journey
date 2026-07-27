@@ -14,7 +14,7 @@ When given a target audience or industry:
    - Company
    - Role
    - Contact method
-
+     
 4. Suggest an outreach message
 
 ## Output Format
